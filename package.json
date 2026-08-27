@@ -1,0 +1,8 @@
+{
+  "name": "jenkins-practice",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo build success",
+    "test": "node app.js"
+  }
+}
