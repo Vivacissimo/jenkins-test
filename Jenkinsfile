@@ -1,13 +1,11 @@
 pipeline {
     agent any
 
-    stages {
+    tools {
+        nodejs 'node22'
+    }
 
-        stage('Checkout') {
-            steps {
-                checkout scm
-            }
-        }
+    stages {
 
         stage('Install') {
             steps {
